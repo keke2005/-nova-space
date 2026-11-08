@@ -1,0 +1,123 @@
+
+.manage-comments {
+  color: #f5f1e8;
+}
+
+.comments-heading {
+  margin-bottom: 30px;
+}
+
+.comments-heading h1 {
+  color: #c5a45a;
+  margin-bottom: 10px;
+}
+
+.comments-heading p {
+  color: #aaa;
+}
+
+.comments-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.comments-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1c1c1c;
+}
+
+.comments-table th,
+.comments-table td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  vertical-align: top;
+}
+
+.comments-table th {
+  background: #222;
+  color: #c5a45a;
+}
+
+.comment-status {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.comment-status.pending {
+  background: #4b3b20;
+  color: #f2c66d;
+}
+
+.comment-status.approved {
+  background: #1f4630;
+  color: #8bd69a;
+}
+
+.comment-status.hidden {
+  background: #4b2424;
+  color: #ff9999;
+}
+
+.comment-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.comment-actions button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.approve-btn {
+  background: #c5a45a;
+  color: #111;
+}
+
+.hide-btn {
+  background: #9c4242;
+  color: #fff;
+}
+
+.pending-btn {
+  background: #444;
+  color: #fff;
+}
+
+.comments-empty {
+  padding: 45px 25px;
+  background: #1c1c1c;
+  border: 1px solid #333;
+  text-align: center;
+}
+
+.comments-empty h3 {
+  color: #c5a45a;
+  margin-bottom: 12px;
+}
+
+.comments-empty p {
+  color: #aaa;
+}
+
+.comments-success {
+  color: #8bd69a;
+  margin-bottom: 20px;
+}
+
+.comments-error {
+  color: #ff7777;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .comments-table {
+    min-width: 750px;
+  }
+}

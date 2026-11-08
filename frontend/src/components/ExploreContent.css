@@ -1,0 +1,148 @@
+
+.explore-page {
+  min-height: 80vh;
+  background: #111;
+  color: #f5f1e8;
+  padding: 70px 8%;
+}
+
+.explore-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.explore-heading h1 {
+  color: #c5a45a;
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.explore-heading > p:last-child {
+  color: #aaa;
+}
+
+.explore-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.explore-filters input,
+.explore-filters select {
+  padding: 14px;
+  background: #1c1c1c;
+  color: #fff;
+  border: 1px solid #444;
+  font: inherit;
+}
+
+.explore-filters input {
+  flex: 1;
+}
+
+.explore-filters select {
+  min-width: 190px;
+}
+
+.explore-count {
+  color: #aaa;
+  margin-bottom: 25px;
+}
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.explore-card {
+  background: #1c1c1c;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.explore-image,
+.explore-placeholder {
+  width: 100%;
+  height: 200px;
+}
+
+.explore-image {
+  object-fit: cover;
+}
+
+.explore-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #3c3223, #181818);
+  color: #c5a45a;
+  font-size: 20px;
+}
+
+.explore-card-body {
+  padding: 25px;
+}
+
+.explore-card-body h3 {
+  margin: 12px 0;
+}
+
+.explore-card-body > p:not(.gold-text) {
+  color: #aaa;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.explore-view-btn {
+  background: #c5a45a;
+  color: #111;
+  padding: 12px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.explore-view-btn:hover {
+  background: #d8b86d;
+}
+
+.explore-empty {
+  padding: 50px;
+  text-align: center;
+  background: #1c1c1c;
+  border: 1px solid #333;
+}
+
+.explore-empty h3 {
+  color: #c5a45a;
+  margin-bottom: 12px;
+}
+
+.explore-error {
+  color: #ff7777;
+}
+
+@media (max-width: 900px) {
+  .explore-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .explore-page {
+    padding: 45px 5%;
+  }
+
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .explore-filters {
+    flex-direction: column;
+  }
+
+  .explore-filters select {
+    width: 100%;
+  }
+}
