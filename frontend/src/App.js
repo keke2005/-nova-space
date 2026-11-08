@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard';
 import ExploreContent from './components/ExploreContent';
 import ContentDetails from './components/ContentDetails';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://nova-space.onrender.com/api';
 
 const defaultPictures = {
   Education: '/images/education.jpg',

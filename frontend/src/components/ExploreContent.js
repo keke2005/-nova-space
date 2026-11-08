@@ -22,7 +22,7 @@ function ExploreContent({ onViewDetails }) {
     const loadContents = async () => {
       try {
         const response = await fetch(
-          'http://localhost:5000/api/contents'
+          'https://nova-space.onrender.com/api/contents'
         );
 
         if (!response.ok) {

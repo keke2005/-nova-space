@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './ContentDetails.css';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://nova-space.onrender.com/api';
 
 // Convert YouTube links into playable embed links
 function getYouTubeEmbedUrl(url) {

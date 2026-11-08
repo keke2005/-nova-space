@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './ManageContent.css';
 
-const API = 'http://localhost:5000/api/contents';
+const API = 'https://nova-space.onrender.com/api/contents';
 
 const emptyForm = {
   title: '',

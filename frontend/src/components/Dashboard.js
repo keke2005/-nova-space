@@ -17,7 +17,7 @@ function Dashboard({ creator, onLogout }) {
       const token = sessionStorage.getItem('creatorToken');
 
       const response = await fetch(
-        'http://localhost:5000/api/dashboard/stats',
+        'https://nova-space.onrender.com/api/dashboard/stats',
         {
           headers: {
             Authorization: `Bearer ${token}`

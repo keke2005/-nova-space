@@ -8,7 +8,7 @@ function ManageComments({ onCommentsChange }) {
   const [error, setError] = useState('');
   const [message, setMessage] = useState('');
 
-  const API = 'http://localhost:5000/api/comments';
+  const API = 'https://nova-space.onrender.com/api/comments';
 
   const loadComments = async () => {
     try {
