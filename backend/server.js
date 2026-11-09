@@ -14,7 +14,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'http://localhost:3001'
+    'http://localhost:3001',
+    'https://nova-space-nine.vercel.app'
   ]
 }));
 
